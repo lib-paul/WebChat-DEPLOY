@@ -17,11 +17,11 @@ const theme = extendTheme({ colors });
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <ChatProvider>
-    <BrowserRouter>
+  <BrowserRouter>
+    <ChatProvider>
       <ChakraProvider>
         <App />
       </ChakraProvider>
-    </BrowserRouter>
-  </ChatProvider>
+    </ChatProvider>
+  </BrowserRouter>
 );
