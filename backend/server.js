@@ -42,5 +42,6 @@ if (process.env.NODE_ENV === "development") {
 app.use(notFound);
 app.use(errorHandler);
 
+//Iniciar el servidor
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, console.log(`Server Started on PORT ${PORT}`.yellow.bold));

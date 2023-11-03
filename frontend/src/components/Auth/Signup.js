@@ -74,7 +74,7 @@ const Signup = () => {
       });
       localStorage.setItem("userInfo", JSON.stringify(data));
       setLoading(false);
-      history("/");
+      history("/chats");
     } catch (error) {
       toast({
         title: "Ocurrio un error!",

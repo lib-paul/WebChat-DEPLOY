@@ -9,6 +9,7 @@ const Chatpage = () => {
   const { user } = ChatState();
 
   const [fetchAgain, setFetchAgain] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   return (
     <div style={{ width: "100%" }}>
